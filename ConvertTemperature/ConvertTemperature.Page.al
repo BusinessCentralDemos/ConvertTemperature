@@ -1,5 +1,6 @@
 page 70074169 MS_ConvertTemperature
 {
+    Caption = 'Convert Temperature';
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
@@ -17,7 +18,7 @@ page 70074169 MS_ConvertTemperature
 
                     trigger OnValidate()
                     begin
-                        ConvertTemperature.ConvertFahrenheitToCelsius(Fahrenheit)
+                        Celsius := ConvertTemperature.ConvertFahrenheitToCelsius(Fahrenheit)
                     end;
 
                 }
@@ -28,7 +29,7 @@ page 70074169 MS_ConvertTemperature
                     ToolTip = 'Convert Celsius to Fahrenheit';
                     trigger OnValidate()
                     begin
-                        ConvertTemperature.ConvertCelsiusToFahrenheit(Celsius)
+                        Fahrenheit := ConvertTemperature.ConvertCelsiusToFahrenheit(Celsius)
                     end;
                 }
             }

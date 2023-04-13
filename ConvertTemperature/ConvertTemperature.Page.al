@@ -36,7 +36,7 @@ page 70074169 MS_ConvertTemperature
     }
 
     var
-        ConvertTemperature: Codeunit "ConvertTemperature";
+        ConvertTemperature: Codeunit MS_ConvertTemperature;
         Fahrenheit: Decimal;
         Celsius: Decimal;
 }

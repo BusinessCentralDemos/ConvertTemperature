@@ -1,9 +1,16 @@
 {
   "country": "us",
-  "appSourceCopMandatoryAffixes": [
-    "<affix>"
+  "VersioningStrategy":  16,
+  "AppSourceCopMandatoryAffixes":  [
+      "MS_"
   ],
-  "appFolders": [],
-  "testFolders": [],
-  "bcptTestFolders": []
+  "CodeSignCertificateUrlSecretName":  "CodeSignCertificateUrl",
+  "CodeSignCertificatePasswordSecretName":  "CodeSignCertificatePassword",
+  "appFolders":  [
+  ],
+  "testFolders":  [
+  ],
+  "bcptTestFolders":  [
+  ],
+  "RepoVersion":  "1.0"
 }

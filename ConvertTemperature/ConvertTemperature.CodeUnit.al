@@ -1,5 +1,10 @@
 codeunit 70074169 MS_ConvertTemperature
 {
+    trigger OnRun()
+    begin
+        Message('Yes, access to the codeunit!');
+    end;
+
     procedure ConvertFahrenheitToCelsius(Fahrenheit: Decimal): Decimal
     var
         Celsius: Decimal;
